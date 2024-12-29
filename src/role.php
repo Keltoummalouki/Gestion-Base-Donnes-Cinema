@@ -1,6 +1,9 @@
 <?php
     class Role extends Member{
-        private $id;
-        private $name;
+
+    public function __construct($id, $name)  {
+        parent::__construct($id, $name); 
     }
+
+}
 ?>
